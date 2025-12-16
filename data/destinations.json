@@ -1,0 +1,27 @@
+[
+    { "title": "Sulawesi Selatan", "href": "/Detail/detail_sulsel.html", "img": "/Images/pantai losari.jpg", "category": "Sulawesi", "excerpt": "Pantai Losari" },
+    { "title": "Bali", "href": "/Detail/detail_bali.html", "img": "/Images/bali.jpg", "category": "Bali", "excerpt": "Pantai Kuta" },
+    { "title": "Yogyakarta", "href": "/Detail/detail_yogyakarta.html", "img": "/Images/yogyakarta.jpg", "category": "Jawa", "excerpt": "Candi Borobudur" },
+    { "title": "Jawa Barat", "href": "/Detail/detail_jawabarat.html", "img": "/Images/jawa barat.jpg", "category": "Jawa", "excerpt": "Kawah Putih Ciwidey" },
+    { "title": "Sumatera Barat", "href": "/Detail/detail_sumaterabarat.html", "img": "/Images/sumatera barat.jpg", "category": "Sumatera", "excerpt": "Jam Gadang" },
+    { "title": "Nusa Tenggara Timur", "href": "/Detail/detail_NTT.html", "img": "/Images/NTT.jpg", "category": "Nusa Tenggara", "excerpt": "Pulau Komodo" },
+    { "title": "Kalimantan Timur", "href": "/Detail/detail_kalimantantimur.html", "img": "/Images/Kalimantan Timur.jpg", "category": "Kalimantan", "excerpt": "Derawan" },
+    { "title": "Maluku", "href": "/Detail/detail_maluku.html", "img": "/Images/Maluku.jpg", "category": "Maluku", "excerpt": "Pantai Natsepa" },
+    { "title": "Papua Barat", "href": "/Detail/detail_papuabarat.html", "img": "/Images/Papua Barat.jpg", "category": "Papua", "excerpt": "Raja Ampat" },
+    { "title": "Jawa Timur", "href": "/Detail/detail_jawatimur.html", "img": "/Images/Jawa Timur.jpg", "category": "Jawa", "excerpt": "Gunung Bromo" },
+    { "title": "DKI Jakarta", "href": "/Detail/detail_jakarta.html", "img": "/Images/Jakarta.jpg", "category": "Jawa", "excerpt": "Monumen Nasional Monas" },
+    { "title": "Jawa Tengah", "href": "/Detail/detail_jawatengah.html", "img": "/Images/Jawa tengah.jpg", "category": "Jawa", "excerpt": "Candi Prambanan" },
+    { "title": "Banten", "href": "/Detail/detail_banten.html", "img": "/Images/Banten.jpg", "category": "Jawa", "excerpt": "Pantai Anyer" },
+    { "title": "Lampung", "href": "/Detail/detail_lampung.html", "img": "/Images/Lampung.jpg", "category": "Sumatera", "excerpt": "Taman Nasional Way Kambas" },
+
+    { "title": "Aceh", "href": "/Detail/detail_aceh.html", "img": "/Images/aceh.jpg", "category": "Sumatera", "excerpt": "Masjid Raya Baiturrahman" },
+    { "title": "Riau", "href": "/Detail/detail_riau.html", "img": "/Images/riau.jpg", "category": "Sumatera", "excerpt": "Istana Siak" },
+    { "title": "Kepulauan Riau", "href": "/Detail/detail_kepulauanriau.html", "img": "/Images/kepulauan riau.jpg", "category": "Sumatera", "excerpt": "Pulau tropis" },
+    { "title": "Bangka Belitung", "href": "/Detail/detail_bangkabelitung.html", "img": "/Images/bangka belitung.jpg", "category": "Sumatera", "excerpt": "Pantai Batu Granit" },
+    { "title": "Jambi", "href": "/Detail/detail_jambi.html", "img": "/Images/jambi.jpg", "category": "Sumatera", "excerpt": "Candi Muaro Jambi" },
+    { "title": "Bengkulu", "href": "/Detail/detail_bengkulu.html", "img": "/Images/bengkulu.jpg", "category": "Sumatera", "excerpt": "Pantai Panjang" },
+    { "title": "Kalimantan Selatan", "href": "/Detail/detail_kalimantanselatan.html", "img": "/Images/kalimantan selatan.jpg", "category": "Kalimantan", "excerpt": "Pasar Terapung" },
+    { "title": "Sulawesi Tenggara", "href": "/Detail/detail_sulawesitenggara.html", "img": "/Images/sulawesi tenggara.jpg", "category": "Sulawesi", "excerpt": "Wakatobi" },
+    { "title": "Sulawesi Utara", "href": "/Detail/detail_sulawesiutara.html", "img": "/Images/sulawesi utara.jpg", "category": "Sulawesi", "excerpt": "Bunaken" },
+    { "title": "Kalimantan Barat", "href": "/Detail/detail_kalimantanbarat.html", "img": "/Images/kalimantan barat.jpg", "category": "Kalimantan", "excerpt": "Taman Nasional" }
+]

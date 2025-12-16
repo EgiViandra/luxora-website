@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Exact Grid Layout</title>
+    <link rel="stylesheet" href="styleDestination.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <!-- Video background -->
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="Images/backgrounddestination.mp4" type="video/mp4">
+        </video>
+
+        <!-- Navbar -->
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>LUXORA</h1>
+                </a>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="Destination.html">Destination</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Search Tour</a></li>
+        </ul>
+    </nav>
+</div>
+        <div class="hero-center-text">
+            <h1>Discover ✦ Destinations </h1>
+        </div>
+    </header>
+
+    <!-- CARD -->
+
+    <div class="title-atas">
+        <h1>RECOMMENDATION</h1>
+    </div>
+    <div class="filter-container">
+        <label for="filter">Filter by Region:</label>
+        <select id="filter">
+            <option value="all">Semua</option>
+            <option value="Bali">Bali</option>
+            <option value="Jawa">Jawa</option>
+            <option value="Sumatera">Sumatera</option>
+            <option value="Sulawesi">Sulawesi</option>
+            <option value="Nusa Tenggara">Nusa Tenggara</option>
+            <option value="Kalimantan">Kalimantan</option>
+            <option value="Maluku">Maluku</option>
+            <option value="Papua">Papua</option>
+        </select>
+    </div>
+    <div class="grid">
+
+        <!-- BARIS 1: 2 CARD BESAR BERSEBELAHAN -->
+        <a href="Detail/detail_sulsel.html" class="card big link-card" data-category="Sulawesi">
+            <img src="Images/pantai losari.jpg" />
+            <div class="content">
+                <div class="title">Sulawesi Selatan</div>
+                <div class="location">📍 Pantai Losari</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_bali.html" class="card big link-card" data-category="Bali">
+            <img src="Images/bali.jpg" />
+            <div class="content">
+                <div class="title">Bali</div>
+                <div class="location">📍 Pantai Kuta</div>
+            </div>
+        </a>
+
+        <!-- BARIS 2: 3 CARD KECIL -->
+        <a href="Detail/detail_yogyakarta.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/yogyakarta.jpg" />
+            <div class="content">
+                <div class="title">Yogyakarta</div>
+                <div class="location">📍 Candi Borobudur</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_jawabarat.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/jawa barat.jpg" />
+            <div class="content">
+                <div class="title">Jawa Barat</div>
+                <div class="location">📍 Kawah Putih Ciwidey</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_sumaterabarat.html" class="card small link-card" data-category="Sumatera">
+            <img src="Images/sumatera barat.jpg" />
+            <div class="content">
+                <div class="title">Sumatera Barat</div>
+                <div class="location">📍 Jam Gadang</div>
+            </div>
+        </a>
+
+        <!-- BARIS 3: 3 CARD KECIL -->
+        <a href="Detail/detail_NTT.html" class="card small link-card" data-category="Nusa Tenggara">
+            <img src="Images/NTT.jpg" />
+            <div class="content">
+                <div class="title">Nusa Tenggara Timur</div>
+                <div class="location">📍 Pulau Komodo</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_kalimantantimur.html" class="card small link-card" data-category="Kalimantan">
+            <img src="Images/Kalimantan Timur.jpg" />
+            <div class="content">
+                <div class="title">Kalimantan Timur</div>
+                <div class="location">📍 Derawan</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_maluku.html" class="card small link-card" data-category="Maluku">
+            <img src="Images/Maluku.jpg" />
+            <div class="content">
+                <div class="title">Maluku</div>
+                <div class="location">📍 Pantai Natsepa</div>
+            </div>
+        </a>
+
+        <!-- BARIS 4: 3 CARD KECIL -->
+        <a href="Detail/detail_papuabarat.html" class="card small link-card" data-category="Papua">
+            <img src="Images/Papua Barat.jpg" />
+            <div class="content">
+                <div class="title">Papua Barat</div>
+                <div class="location">📍 Raja Ampat</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_jawatimur.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/Jawa Timur.jpg" />
+            <div class="content">
+                <div class="title">Jawa Timur</div>
+                <div class="location">📍 Gunung Bromo</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_jakarta.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/Jakarta.jpg" />
+            <div class="content">
+                <div class="title">DKI Jakarta</div>
+                <div class="location">📍 Monumen Nasional Monas</div>
+            </div>
+        </a>
+
+        <!-- BARIS 5: 3 CARD KECIL -->
+        <a href="Detail/detail_jawatengah.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/Jawa tengah.jpg" />
+            <div class="content">
+                <div class="title">Jawa Tengah</div>
+                <div class="location">📍 Candi Prambanan</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_banten.html" class="card small link-card" data-category="Jawa">
+            <img src="Images/Banten.jpg" />
+            <div class="content">
+                <div class="title">Banten</div>
+                <div class="location">📍 Pantai Anyer</div>
+            </div>
+        </a>
+
+        <a href="Detail/detail_lampung.html" class="card small link-card" data-category="Sumatera">
+            <img src="Images/Lampung.jpg" />
+            <div class="content">
+                <div class="title">Lampung</div>
+                <div class="location">📍 Taman Nasional Way Kambas</div>
+            </div>
+        </a>
+    </div>
+
+    
+
+    <div align="center">
+  <a href="Detail/seeother.html">
+    <button class="see-other-btn">See Other</button>
+  </a>
+</div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Left Brand + Social -->
+            <div class="footer-brand">
+                <h2 class="footer-logo">LUXORA</h2>
+
+                <div class="footer-social">
+                    <h3>Project By Kelompok 5</h3>
+                    <h5>A. Naufal Nur Fiqih Al-Farezy (60200124069)</h5>
+                    <h5>Bayu Alamsyah Pabarani (60200124099)</h5>
+                    <h5>Andi Egi Viandra Dwi Satya (60200124153)</h5>
+                    <h5>Anisa Rihlah Rahmania (60200124007)</h5>
+                    <h5>Andi Chairunnas Rahmatullah (60200124120)</h5>
+                </div>
+            </div>
+
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <button class="prev">&lt;</button>
+        <img id="lightbox-img" src="" alt="">
+        <button class="next">&gt;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
